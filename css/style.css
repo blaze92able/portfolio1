@@ -20,13 +20,26 @@ nav
     text-decoration: none;
     font-size: 300rm;
     color: #1ac056;
+    margin: 10px;
 }
 
 li:hover
 {
     color: brown;
 }
-#main_header
+
+#main_header>img 
 {
-    
+    background-size: cover;
+    background-position: center;
+}
+
+h1
+{
+    font-family: "Roboto";
+}
+
+.main_header_content
+{
+    padding: 30vh%;
 }
