@@ -3,7 +3,6 @@ body
     font-family: "lato", sans-serif;
     color: #291f1a;
     font-size: 300rm;
-    background-color: pink;
 }
 
 nav
@@ -15,13 +14,19 @@ nav
     text-align: right;
 }
 
-
-
 #menu>li
 {
     display: inline-block;
     text-decoration: none;
     font-size: 300rm;
     color: #1ac056;
+}
+
+li:hover
+{
+    color: brown;
+}
+#main_header
+{
     
 }
